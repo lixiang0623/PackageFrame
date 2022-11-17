@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "Frame-Swift.h"
 
 @interface ViewController ()
 
@@ -15,8 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
 
+
 @end
+
+
+
+
