@@ -21,6 +21,8 @@
 //    FHXTabBarController *tabBarVC = [[FHXTabBarController alloc]init];
 //    [tabBarVC setUpOneChildViewController:[[ViewController alloc] init] image:@"slider_normal" selectedImage:@"slider_normal" title:@"1"];
 //    [tabBarVC setUpOneChildViewController:[[AViewController alloc] init] image:@"slider_normal" selectedImage:@"slider_normal" title:@"1"];
+    
+    //我测试来的
     self.window.rootViewController = [[FHXNavigationController alloc] initWithRootViewController:[ViewController new]];
     [self.window makeKeyAndVisible];
     return YES;
